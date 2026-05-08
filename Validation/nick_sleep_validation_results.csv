@@ -1,0 +1,31 @@
+type,company,ticker,expected_verdicts,actual,predicted_verdict,raw_verdict,correct,reasoning,positives,concerns
+position,Amazon.com,AMZN,"STRONG BUY, INTERESTED",BUY,STRONG BUY,STRONG BUY,True,"{
+  ""verdict"": ""STRONG BUY"",
+  ""reasoning"": ""Amazon is the quintessential example of our '",,
+position,Costco Wholesale,COST,"STRONG BUY, INTERESTED",BUY,STRONG BUY,STRONG BUY,True,"{
+  ""verdict"": ""STRONG BUY"",
+  ""reasoning"": ""Costco is the platonic ideal of our 'Scale",,
+position,Berkshire Hathaway,BRK-B,"STRONG BUY, INTERESTED",BUY,STRONG BUY,STRONG BUY,True,"{
+  ""verdict"": ""STRONG BUY"",
+  ""reasoning"": ""Berkshire Hathaway is the archetype of a long-",,
+position,Booking Holdings,BKNG,"STRONG BUY, INTERESTED",BUY,INTERESTED,INTERESTED,True,"{
+  ""verdict"": ""INTERESTED"",
+  ""reasoning"": ""The business exhibits a powerful network effect,",,
+position,Walmart,WMT,"STRONG BUY, INTERESTED",BUY,INTERESTED,INTERESTED,True,"{
+  ""verdict"": ""INTERESTED"",
+  ""reasoning"": ""Walmart is",,
+pass,Expedia Group,EXPE,"PASS, HARD PASS",PASS,PASS,PASS,True,"{
+  ""verdict"": ""PASS"",
+  ""reasoning"": ""While the business benefits from scale, its model",,
+pass,American Airlines Group,AAL,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""We seek businesses with durable, self-",,
+pass,Macy's,M,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""This business appears to lack the 'Scale Economics",,
+pass,GameStop Corp.,GME,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""This company is the very definition of a market frenzy",,
+pass,Carnival Corporation,CCL,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""This is a capital-intensive, leveraged,",,

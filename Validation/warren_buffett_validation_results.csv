@@ -1,0 +1,31 @@
+type,company,ticker,expected_verdicts,actual,predicted_verdict,raw_verdict,correct,reasoning,positives,concerns
+position,Apple Inc.,AAPL,"STRONG BUY, INTERESTED",BUY,STRONG BUY,STRONG BUY,True,"{
+  ""verdict"": ""STRONG BUY"",
+  ""reasoning"": ""Apple is not a technology company;",,
+position,Coca-Cola Company,KO,"STRONG BUY, INTERESTED",BUY,STRONG BUY,STRONG BUY,True,"{
+  ""verdict"": ""STRONG BUY"",
+  ""reasoning"": ""It's a simple, wonderful business with an",,
+position,American Express,AXP,"STRONG BUY, INTERESTED",BUY,STRONG BUY,STRONG BUY,True,"{
+  ""verdict"": ""STRONG BUY"",
+  ""reasoning"": ""American Express is a wonderful business with an economic",,
+position,Bank of America,BAC,"STRONG BUY, INTERESTED",BUY,STRONG BUY,STRONG BUY,True,"{
+  ""verdict"": ""STRONG BUY"",
+  ""reasoning"": ""Bank of America represents a",,
+position,Chevron Corporation,CVX,"STRONG BUY, INTERESTED",BUY,INTERESTED,INTERESTED,True,"{
+  ""verdict"": ""INTERESTED"",
+  ""reasoning"": ""Chevron is a large, understandable business that is critical to",,
+pass,"Tesla, Inc.",TSLA,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""The business is difficult to understand",,
+pass,Bitcoin,BTC-USD,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""An investment must be a productive",,
+pass,Rivian Automotive,RIVN,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""This is a speculative venture in a brutally competitive,",,
+pass,United Airlines Holdings,UAL,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""I prefer businesses with durable competitive advantages and predictable earnings",,
+pass,Plug Power,PLUG,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""We only invest in businesses we can understand and",,

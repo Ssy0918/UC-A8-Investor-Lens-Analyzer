@@ -1,0 +1,17 @@
+{
+  "investor": "Peter Lynch",
+  "date": "2026-05-08",
+  "overall_accuracy": 90.0,
+  "position_accuracy": 80.0,
+  "pass_accuracy": 100.0,
+  "total_tests": 10,
+  "correct": 9,
+  "misclassifications": [
+    {
+      "company": "Federal National Mortgage Association",
+      "actual": "BUY",
+      "predicted_verdict": "PASS",
+      "reasoning": "{\n  \"verdict\": \"PASS\",\n  \"reasoning\": \"This is a classic turnaround story, which always gets my"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "investor": "Howard Marks",
+  "date": "2026-05-08",
+  "overall_accuracy": 90.0,
+  "position_accuracy": 80.0,
+  "pass_accuracy": 100.0,
+  "total_tests": 10,
+  "correct": 9,
+  "misclassifications": [
+    {
+      "company": "AngloGold Ashanti",
+      "actual": "BUY",
+      "predicted_verdict": "WATCHLIST",
+      "reasoning": "{\n  \"verdict\": \"WATCHLIST\",\n  \"reasoning\": \"This is a real asset with cash flow,"
+    }
+  ]
+}

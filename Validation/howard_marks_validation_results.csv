@@ -1,0 +1,31 @@
+type,company,ticker,expected_verdicts,actual,predicted_verdict,raw_verdict,correct,reasoning,positives,concerns
+position,Expand Energy Corp,EXE,"STRONG BUY, INTERESTED",BUY,INTERESTED,INTERESTED,True,"{
+  ""verdict"": ""INTERESTED"",
+  ""reasoning"": ""This is precisely the kind of",,
+position,TORM PLC,TRMD,"STRONG BUY, INTERESTED",BUY,STRONG BUY,STRONG BUY,True,"{
+  ""verdict"": ""STRONG BUY"",
+  ""reasoning"": ""Shipping is a deeply cyclical industry, and our primary",,
+position,AngloGold Ashanti,AU,"STRONG BUY, INTERESTED",BUY,WATCHLIST,WATCHLIST,False,"{
+  ""verdict"": ""WATCHLIST"",
+  ""reasoning"": ""This is a real asset with cash flow,",,
+position,Garrett Motion,GTX,"STRONG BUY, INTERESTED",BUY,INTERESTED,INTERESTED,True,"{
+  ""verdict"": ""INTERESTED"",
+  ""reasoning"": ""This is precisely the type of situation",,
+position,Indivior PLC,INDV,"STRONG BUY, INTERESTED",BUY,INTERESTED,INTERESTED,True,"{
+  ""verdict"": ""INTERESTED"",
+  ""reasoning"": ""The most intriguing opportunities arise from assets that",,
+pass,GameStop Corp.,GME,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""This is a textbook example of",,
+pass,AMC Entertainment Holdings,AMC,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""The investment is characterized by 'meme-",,
+pass,Rivian Automotive,RIVN,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""The investment thesis appears to rely on optimistic growth",,
+pass,Virgin Galactic Holdings,SPCE,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""This is a speculative venture whose",,
+pass,ARK Innovation ETF,ARKK,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""This strategy represents the antithesis of our philosophy.",,

@@ -1,0 +1,31 @@
+type,company,ticker,expected_verdicts,actual,predicted_verdict,raw_verdict,correct,reasoning,positives,concerns
+position,Yum! Brands,YUM,"STRONG BUY, INTERESTED",BUY,INTERESTED,INTERESTED,True,"{
+  ""verdict"": ""INTERESTED"",
+  ""reasoning"": ""This is exactly the kind of",,
+position,Stellantis,STLA,"STRONG BUY, INTERESTED",BUY,INTERESTED,INTERESTED,True,"{
+  ""verdict"": ""INTERESTED"",
+  ""reasoning"": ""This looks like a classic cyclical turnaround, the",,
+position,Federal National Mortgage Association,FNMA,"STRONG BUY, INTERESTED",BUY,PASS,PASS,False,"{
+  ""verdict"": ""PASS"",
+  ""reasoning"": ""This is a classic turnaround story, which always gets my",,
+position,Ahold Delhaize,ADRNY,"STRONG BUY, INTERESTED",BUY,INTERESTED,INTERESTED,True,"{
+  ""verdict"": ""INTERESTED"",
+  ""reasoning"": ""This is exactly the kind of company an amateur has",,
+position,Darden Restaurants,DRI,"STRONG BUY, INTERESTED",BUY,INTERESTED,INTERESTED,True,"{
+  ""verdict"": ""INTERESTED"",
+  ""reasoning"": ""This is",,
+pass,Virgin Galactic Holdings,SPCE,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""This is a story stock in a hot industry",,
+pass,WeWork,WEWKQ,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""This is the classic 'hot stock in",,
+pass,Nikola Corporation,NKLAQ,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""The fundamental rule is that earnings drive stock prices over the",,
+pass,AMC Entertainment Holdings,AMC,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""The stock's price has strayed",,
+pass,Peloton Interactive,PTON,"PASS, HARD PASS",PASS,HARD PASS,HARD PASS,True,"{
+  ""verdict"": ""HARD PASS"",
+  ""reasoning"": ""This is a classic story of a 'hot",,
